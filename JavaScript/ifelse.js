@@ -37,3 +37,35 @@ if (username === "jabar" && password === "12345") {
 } else {
     console.log("Username atau password salah!");
 }
+
+
+//challage
+//no 1
+/** 
+Buat program for loop dari 1 sampai 10.
+Gunakan if else untuk cek:
+Kalau angkanya genap → cetak "Angka X adalah Genap"
+Kalau angkanya ganjil → cetak "Angka X adalah Ganjil" */
+
+for (let a = 1; a <= 10; a++) {
+    if (a % 2 === 0) {
+        console.log('angka ' + a + ' adalah genap');
+    } else {
+        console.log('angka ' + a + ' adalah ganjil');
+    }
+}
+
+//no2
+let nilai = [95, 82, 67, 45, 100];
+
+for (let i = 0; i < nilai.length; i++) {
+    if (nilai[i] >= 90) {
+        console.log(nilai[i] + " Grade A");
+    } else if (nilai[i] >= 75) {
+        console.log(nilai[i] + " Grade B");
+    } else if (nilai[i] >= 60) {
+        console.log(nilai[i] + " Grade C");
+    } else {
+        console.log(nilai[i] + " Grade D");
+    }
+}
