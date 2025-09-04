@@ -51,3 +51,12 @@ console.log(fruits)
 let fruitsA = fruits.slice(0, 2) // menambil nilai index ke berapa dan berapa index yg diambil
 console.log(fruits)
 console.log(fruitsA)
+
+// mengabungkan nilai array
+let numb1 = [1, 2];
+let numb2 = [3, 4];
+let numb3 = [5, 6];
+
+let allnumb = numb1.concat(numb2, numb3);
+
+console.log(allnumb);
