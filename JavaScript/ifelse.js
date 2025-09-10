@@ -15,9 +15,9 @@ if (a > 7) { // build condition
     console.log('mahal')
 } else if (a == 4) { // else first condition
     console.log('hampir mahal')
-} else(
+} else {
     console.log('murah') // else condition
-)
+}
 
 let angka = 7;
 
