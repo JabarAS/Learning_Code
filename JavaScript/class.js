@@ -1,5 +1,5 @@
 class Employee {
-    //build function
+    //build function dan parameter
     setDetails(name, id) {
         this.name = name
         this.id = id
